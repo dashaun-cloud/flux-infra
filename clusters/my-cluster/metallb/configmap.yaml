@@ -1,0 +1,11 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: config
+data:
+  config: |
+    address-pools:
+    - addresses:
+      - 10.14.8.10/23
+      name: default
+      protocol: layer2
